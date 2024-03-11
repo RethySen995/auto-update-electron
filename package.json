@@ -1,0 +1,20 @@
+{
+  "name": "auto-update-electron",
+  "version": "1.0.0",
+  "private": true,
+  "description": "auto-update-electron",
+  "author": "Rethysen",
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^11.5.0",
+    "electron-builder": "^24.9.1",
+    "electron-log": "^5.1.0",
+    "electron-updater": "^6.1.7"
+  }
+}
